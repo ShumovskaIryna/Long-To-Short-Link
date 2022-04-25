@@ -1,0 +1,6 @@
+{
+"port": 5000,
+"jwtSecret": "Iryna youtube mern",
+"mongoUri": "mongodb+srv://IrynaShuma:ZAG6paFfPV5veEy7@cluster1.bw6fk.mongodb.net/app?retryWrites=true&w=majority",
+"baseUrl": "http://localhost:5000"
+}

@@ -1,0 +1,82 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+body {
+  margin: 0;
+  font-family: "Acme", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #fff;
+  background: url(pand.jpg) center no-repeat;
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.card {
+  justify-content: center;
+  min-width: 290px;
+  max-width: 290px;
+  margin: 0 auto;
+  opacity: 0.9;
+  text-align: center;
+  background-color: black;
+  margin-top: 150px;
+}
+
+input {
+  color: cornsilk;
+}
+
+input.yellow-input {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1px 0 0 #fff !important;
+}
+
+input.yellow-input + label {
+  color: #ffffff !important;
+}
+input.yellow-input:focus + label {
+  color: #18ffff !important;
+}
+
+input.yellow-input:focus {
+  border-bottom: 1px solid #18ffff !important;
+  box-shadow: 0 1px 00 #18ffff !important;
+}
+
+.createpage {
+  margin: 0 auto;
+  margin-top: 250px;
+  margin-bottom: 150px;
+  min-width: 550px;
+  max-width: 550px;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+.linklist {
+  margin: 0 auto;
+  margin-top: 250px;
+  margin-bottom: 150px;
+  justify-content: center;
+  min-width: 700px;
+  max-width: 700px;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+.linkpage {
+  margin: 0 auto;
+  margin-top: 250px;
+  margin-bottom: 150px;
+  justify-content: center;
+  min-width: 350px;
+  max-width: 350px;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
